@@ -1,0 +1,13 @@
+/* Banner */
+.banner-text{
+  height: auto;
+}
+
+.mv {
+  object-fit: cover;
+}
+
+/* About */
+.about {
+  height: 100vh;
+}

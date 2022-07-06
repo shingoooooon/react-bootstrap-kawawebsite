@@ -6,7 +6,7 @@ import logoImage from "../Images/yuka.jpg"
 const Header = () => {
   return (
     <div className='header'>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
         <Navbar.Brand as={NavLink} to="/">
            <img

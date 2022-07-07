@@ -8,10 +8,7 @@ import Mv5 from "../Images/color5.jpg"
 
 const Banner = () => {
   return (
-    <div className='banner row'>
-      <div className='banner-text bg-dark text-white col-lg-3 col-md-3 col-sm-12'>
-        KAWA
-      </div>
+    <div className='banner row flex-row-reverse'>
       <Carousel fade className='banner-carousel col-lg-9 col-md-9 col-sm-12'>
         <Carousel.Item interval={1000}>
           <img
@@ -49,6 +46,10 @@ const Banner = () => {
           />
         </Carousel.Item>
       </Carousel>
+      <div className='banner-text d-flex align-items-center col-lg-3 col-md-3 col-sm-12'>
+        <h1 className='banner-kawa m-0'>KAWA</h1>
+        <p className='banner-dynamic-text m-0'>Illustlation  Vtuber design  Game character Illustlation  Vtuber design  Game character Illustlation  Vtuber design</p>
+      </div>
     </div>
   )
 }

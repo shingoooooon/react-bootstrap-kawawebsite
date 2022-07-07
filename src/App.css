@@ -1,13 +1,120 @@
-/* Banner */
+span {
+  color: #948BDB;
+}
+
+/*---------------------------------- Header ----------------------------------*/
+.header {
+  background: #111111 !important;
+}
+
+
+/*---------------------------------- Banner ----------------------------------*/
 .banner-text{
   height: auto;
+  background: #111111;
+}
+
+.banner-kawa {
+  font-size: 200px;
+  color: #ffffff;
+  /* font-family: 'Allura', cursive; */
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
+
+.banner-dynamic-text {
+  color: #948BDB;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
 }
 
 .mv {
   object-fit: cover;
 }
 
-/* About */
+/*---------------------------------- About ----------------------------------*/
 .about {
   height: 100vh;
+  background: #111111;
+  position: relative;
+}
+
+.about-backtext {
+  font-size: 150px;
+  color: transparent;
+  font-family: 'Russo One', sans-serif;
+  -webkit-text-stroke: 1px #948BDB;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: absolute;
+  top: 100px;
+  left: -85vw;
+}
+
+.about h1, .about p {
+  color: #ffffff;
+}
+
+.icon-wrapper-2{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: #6959E8;
+}
+
+.icon-wrapper-1{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: #948BDB;
+  margin: 0 0 0 30px;
+}
+
+.about-icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 50px 0 50px 15px;
+}
+
+.line {
+  height: 2px;
+  width: 200px;
+  background-color: #948BDB;
+}
+
+/*---------------------------------- Works ----------------------------------*/
+.works {
+  background: #111111;
+}
+
+.works h1 {
+  color: #ffffff;
+}
+
+.works img {
+  object-fit: cover;
+}
+
+/*---------------------------------- Gallery ----------------------------------*/
+.gallery {
+  background: #111111;
+}
+
+.gallery h1 {
+  color: #ffffff;
+}
+
+.gallery img {
+  object-fit: cover;
+}
+
+/*---------------------------------- Contact ----------------------------------*/
+.contact {
+  background: #111111;
+}
+
+.contact h1 {
+  color: #ffffff;
 }

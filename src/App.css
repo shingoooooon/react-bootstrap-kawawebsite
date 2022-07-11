@@ -111,10 +111,39 @@ span {
 }
 
 /*---------------------------------- Contact ----------------------------------*/
+.hako {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .contact {
   background: #111111;
 }
 
+.contact label {
+  font-weight: bold;
+}
+
+.contact button {
+  font-weight: bold;
+  padding: 10px 100px;
+}
+
 .contact h1 {
   color: #ffffff;
+}
+
+.required {
+  color: white;
+  background: red;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.submit {
+  padding: 0 30px;
+  font-weight: bold;
+  background: #948BDB !important;
 }

@@ -7,7 +7,7 @@ const Works = () => {
     <div className='works'>
       <h1 className='text-center p-5'><span>W</span>orks</h1>
       <div className='row g-0'>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
@@ -15,7 +15,7 @@ const Works = () => {
             height="400"
           />
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
@@ -23,7 +23,7 @@ const Works = () => {
             height="400"
           />
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
@@ -31,7 +31,7 @@ const Works = () => {
             height="400"
           />
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
@@ -39,7 +39,7 @@ const Works = () => {
             height="400"
           />
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
@@ -47,7 +47,7 @@ const Works = () => {
             height="400"
           />
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center mb-5">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center g-3">
           <img
             alt=""
             src={logoImage}
